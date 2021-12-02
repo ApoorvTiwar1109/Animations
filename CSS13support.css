@@ -1,0 +1,161 @@
+.main {
+  display: flex;
+  justify-content: space-between;
+  background-color: blanchedalmond;
+  border: 3px double black;
+}
+.a {
+  position: relative;
+  height: 200px;
+  width: 230px;
+  border: 3px solid black;
+}
+#a1 {
+  background-color: blue;
+  animation-name: anime1;
+  animation-duration: 5s;
+  transition-property: all;
+  transition-duration: 1.2s;
+}
+#a1:hover {
+  width: 210px;
+  border-radius: 50%;
+  opacity: 80%;
+}
+@keyframes anime1 {
+  0% {
+    top: 0px;
+  }
+  25% {
+    top: 200px;
+  }
+  50% {
+    top: 400px;
+  }
+  75% {
+    top: 200px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+#a2 {
+  background-color: red;
+  animation-name: anime2;
+  animation-duration: 5s;
+  animation-delay: 4s;
+  transition-property: all;
+  transition-duration: 1.2s;
+}
+#a2:hover {
+  width: 210pxs;
+  border-radius: 50%;
+  opacity: 80%;
+}
+@keyframes anime2 {
+  0% {
+    top: 0px;
+  }
+  25% {
+    top: 200px;
+  }
+  50% {
+    top: 400px;
+  }
+  75% {
+    top: 200px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+#a3 {
+  background-color: purple;
+  animation-name: anime3;
+  animation-duration: 5s;
+  animation-delay: 8s;
+  transition-property: all;
+  transition-duration: 1.2s;
+}
+#a3:hover {
+  width: 210pxs;
+  border-radius: 50%;
+  opacity: 80%;
+}
+@keyframes anime3 {
+  0% {
+    top: 0px;
+  }
+  25% {
+    top: 200px;
+  }
+  50% {
+    top: 400px;
+  }
+  75% {
+    top: 200px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+#a4 {
+  background-color: green;
+  animation-name: anime4;
+  animation-duration: 5s;
+  animation-delay: 12s;
+  transition-property: all;
+  transition-duration: 1.2s;
+}
+#a4:hover {
+  width: 210pxs;
+  border-radius: 50%;
+  opacity: 80%;
+}
+@keyframes anime4 {
+  0% {
+    top: 0px;
+  }
+  25% {
+    top: 200px;
+  }
+  50% {
+    top: 400px;
+  }
+  75% {
+    top: 200px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+#a5 {
+  background-color: hotpink;
+  animation-name: anime5;
+  animation-duration: 5s;
+  animation-delay: 16s;
+  transition-property: all;
+  transition-duration: 1.2s;
+}
+#a5:hover {
+  width: 210pxs;
+  border-radius: 50%;
+  opacity: 80%;
+}
+@keyframes anime5 {
+  0% {
+    top: 0px;
+  }
+  25% {
+    top: 200px;
+  }
+  50% {
+    top: 400px;
+  }
+  75% {
+    top: 200px;
+  }
+  100% {
+    top: 0px;
+  }
+}
